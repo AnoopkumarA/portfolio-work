@@ -12,13 +12,12 @@ const about: React.FC = () => {
         <>
            <div className="bg-[#020516] ">
             <HashRouter>
-     <Router>
+     
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
          
         </Routes>
-        </Router>
         </HashRouter>
       
       
