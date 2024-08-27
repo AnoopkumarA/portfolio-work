@@ -1,20 +1,19 @@
 import React from "react";
-import '../App.css'
-import { GridBackgroundDemo1 } from "../components/AcertinityUI/gridbackground/gridbackground2";
-import { TypewriterEffectSmoothDemo } from "../components/AcertinityUI/typewritercomponents";
-import { WordRotateDemo } from "../components/MagicUI/wordcomponents";
-import { FloatingDockDemo } from "../components/AcertinityUI/dockcomponents";
-import { TextGenerateEffectDemo } from "../components/AcertinityUI/textgeneratorcomponents";
+import '../../App.css'
 
-import NumberTickerDemo from "../components/MagicUI/countcomponent";
-import Skills from "../components/AcertinityUI/skills";
-import { ParallaxScrollDemo } from "../components/AcertinityUI/paralleaxcomponents";
-import ContactForm from "../components/AcertinityUI/contact";
-
-import { GridBackgroundDemo3 } from "../components/AcertinityUI/gridbackground3";
-import Footer from "../components/Footer/footer";
-import WorkExperience from "../components/AcertinityUI/experince";
-import Services from "../components/AcertinityUI/icons-work";
+import { GridBackgroundDemo1 } from "../AcertinityUI/gridbackground/gridbackground2";
+import ContactForm from "../AcertinityUI/contact";
+import { FloatingDockDemo } from "../AcertinityUI/dockcomponents";
+import WorkExperience from "../AcertinityUI/experince";
+import { GridBackgroundDemo3 } from "../AcertinityUI/gridbackground3";
+import Services from "../AcertinityUI/icons-work";
+import { ParallaxScrollDemo } from "../AcertinityUI/paralleaxcomponents";
+import Skills from "../AcertinityUI/skills";
+import { TextGenerateEffectDemo } from "../AcertinityUI/textgeneratorcomponents";
+import { TypewriterEffectSmoothDemo } from "../AcertinityUI/typewritercomponents";
+import Footer from "../Footer/footer";
+import NumberTickerDemo from "../MagicUI/countcomponent";
+import { WordRotateDemo } from "../MagicUI/wordcomponents";
 
 
 

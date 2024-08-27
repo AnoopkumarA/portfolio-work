@@ -1,9 +1,10 @@
 import React from "react";
 import './App.css'
 
-import Home from "./pages/home";
-import { BrowserRouter as  Routes, Route, HashRouter} from 'react-router-dom'
+
+import { BrowserRouter as Router, Routes, Route, HashRouter} from 'react-router-dom'
 import Navbar from "./components/Navbar/Navbar";
+import Home from "./components/pages/home";
 
 
 
@@ -18,7 +19,7 @@ const about: React.FC = () => {
           <Route path="/" element={<Home />} />
          
         </Routes>
-     </HashRouter>
+        </HashRouter>
       
       
 </div> 
