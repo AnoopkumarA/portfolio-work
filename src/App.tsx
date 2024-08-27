@@ -11,14 +11,14 @@ const about: React.FC = () => {
     return (
         <>
            <div className="bg-[#020516] ">
-            <HashRouter>
+            <Router>
      
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
          
         </Routes>
-        </HashRouter>
+        </Router>
       
       
 </div> 
